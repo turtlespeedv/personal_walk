@@ -128,7 +128,7 @@ export default function GardenWalkPage() {
             className="audio-pill hover:bg-white/80 transition-colors"
           >
             <Volume2 className="w-5 h-5" />
-            <span>{isPlaying ? "sarmaaya" : "Sound Muted"}</span>
+            <span>{isPlaying ? "Play kroo" : "Sound Muted"}</span>
             <div className="flex gap-0.5 items-end h-3">
               <div className={cn("w-0.5 h-1 bg-(--color-sage-green)", isPlaying && "animate-bounce")} />
               <div className={cn("w-0.5 h-3 bg-(--color-sage-green)", isPlaying && "animate-bounce delay-100")} />
