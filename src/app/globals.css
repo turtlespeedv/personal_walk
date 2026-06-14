@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito+Sans:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--color-lavender-mist);
+    color: var(--color-charcoal-blue);
+    font-family: var(--font-nunito);
+  }
+}
+
+.painterly-frame {
+  background: radial-gradient(circle at center,
+      rgba(255,255,255,0.9) 0%,
+      rgba(255,255,255,0.5) 70%,
+      transparent 100%);
+  backdrop-filter: blur(8px);
+  padding: 3rem;
+  border-radius: 60px 20px 80px 40px;
+}
+
+.scene-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bg-painterly {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent 40%,
+    rgba(248,244,255,0.4) 100%
+  );
+  pointer-events: none;
+}
+
+.audio-pill {
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 0.75rem 1.25rem;
+  border-radius: 100px;
+}
+
+.drop {
+  position: absolute;
+  width: 1.2px;
+  height: 150px;
+  top: -150px;
+}
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
