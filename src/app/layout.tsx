@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Watercolor Garden Walk",
+  title: "walk time babe",
   description: "A cute aesthetic garden walk website with flowers and rainy weather.",
 };
 
