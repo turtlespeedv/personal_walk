@@ -161,7 +161,7 @@ export default function GardenWalkPage() {
             </h1>
             <div ref={heroSubRef} className="max-w-md ml-2 space-y-6">
               <p className="text-xl md:text-2xl text-(--color-charcoal-blue)/80 leading-relaxed font-light italic">
-                good evening jaanu.i love you so much. this is a small token of appreciation for you.
+                good morning jaanu.i love you so much. this is a small token of appreciation for you.
               </p>
               <button
                 onClick={() => scrollToSection("#stop1")}
