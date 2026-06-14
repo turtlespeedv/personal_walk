@@ -143,7 +143,7 @@ export default function GardenWalkPage() {
             <img
               ref={bgHeroRef}
               src="https://images.unsplash.com/photo-1776286287707-32c03b3691da?auto=format&w=1600&q=80&fit=crop"
-              alt="Watercolor Garden Path"
+              alt="walking time"
               className="w-full h-[120%] object-cover"
               loading="lazy"
             />
